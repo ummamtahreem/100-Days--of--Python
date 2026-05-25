@@ -1,4 +1,5 @@
 import random
+<<<<<<< HEAD
 
 from hangman_words import word_list
 from hangman_art import stages, logo
@@ -6,6 +7,9 @@ from hangman_art import stages, logo
 lives = 6
 
 print(logo)
+=======
+word_list = ["aardvark", "baboon", "camel"]
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
@@ -14,12 +18,17 @@ placeholder = ""
 word_length = len(chosen_word)
 for position in range(word_length):
     placeholder += "_"
+<<<<<<< HEAD
 print("Word to guess: " + placeholder)
+=======
+print(placeholder)
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
 
 game_over = False
 correct_letters = []
 
 while not game_over:
+<<<<<<< HEAD
 
     print(f"****************************{lives}/6 LIVES LEFT****************************")
     guess = input("Guess a letter: ").lower()
@@ -27,6 +36,10 @@ while not game_over:
     if guess in correct_letters:
         print(f"You've already guessed {guess}")
 
+=======
+    guess = input("Guess a letter: ").lower()
+
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
     display = ""
 
     for letter in chosen_word:
@@ -38,6 +51,7 @@ while not game_over:
         else:
             display += "_"
 
+<<<<<<< HEAD
     print("Word to guess: " + display)
 
     if guess not in chosen_word:
@@ -54,3 +68,10 @@ while not game_over:
         print("****************************YOU WIN****************************")
 
     print(stages[lives])
+=======
+    print(display)
+
+    if "_" not in display:
+        game_over = True
+        print("You win.")
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d

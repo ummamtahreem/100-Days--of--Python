@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import random
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
 rock = '''
     _______
 ---'   ____)
@@ -24,6 +28,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+<<<<<<< HEAD
 game_images = [rock, paper, scissors]
 
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
@@ -49,3 +54,29 @@ elif user_choice > computer_choice:
     print("You win!")
 elif computer_choice == user_choice:
     print("It's a draw!")
+=======
+
+game_image= [rock ,paper ,scissors]
+
+user_choice= int(input("What do you choose? Type 0 for Rock , Type 1 for paper, Type 2 for scissors\n"))
+if user_choice >=0 and user_choice <=2:
+    print(game_image[user_choice])
+
+
+computer_choice= random.randint(0,2)
+print("computer chose")
+print(game_image[computer_choice])
+
+if user_choice>=3 or user_choice<0:
+    print("You typed a invalid number.you lose!")
+elif user_choice==0 and computer_choice==2:
+    print("You win!")
+elif computer_choice==0 and user_choice==2:
+    print("You lose!")
+elif computer_choice > user_choice :
+    print("You lose !")
+elif user_choice > computer_choice :
+    print("You win!")
+elif computer_choice == user_choice :
+    print("It's a draw!")
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d

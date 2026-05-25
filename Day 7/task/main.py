@@ -1,14 +1,19 @@
 import random
+<<<<<<< HEAD
 
 # TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 
 lives = 6
 
 # TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
+=======
+word_list = ["aardvark", "baboon", "camel"]
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
+<<<<<<< HEAD
 placeholder = ""
 word_length = len(chosen_word)
 for position in range(word_length):
@@ -57,3 +62,5 @@ while not game_over:
 
     # TODO-2: - Update the code below to use the stages List from the file hangman_art.py
     print(stages[lives])
+=======
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
