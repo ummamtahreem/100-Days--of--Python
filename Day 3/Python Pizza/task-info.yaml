@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+<<<<<<< HEAD
+  time: "Sun, 24 May 2026 16:30:58 UTC"
+=======
+  time: "Sat, 04 Apr 2026 09:45:27 UTC"
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
+record: -1

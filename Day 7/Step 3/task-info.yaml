@@ -1,0 +1,18 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Solved
+<<<<<<< HEAD
+record: 8
+=======
+record: 9
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
+post_submission_on_open: true

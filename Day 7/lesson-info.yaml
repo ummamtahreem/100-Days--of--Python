@@ -1,0 +1,12 @@
+type: framework
+content:
+  - Step 1
+  - Step 2
+  - Step 3
+  - Step 4
+  - Step 5
+<<<<<<< HEAD
+current_task: 4
+=======
+current_task: 2
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d

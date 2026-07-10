@@ -1,0 +1,18 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+  - name: art.py
+    visible: true
+    learner_created: false
+<<<<<<< HEAD
+status: Solved
+=======
+status: Unchecked
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
+record: -1
+post_submission_on_open: true

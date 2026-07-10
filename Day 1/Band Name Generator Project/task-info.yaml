@@ -1,0 +1,15 @@
+type: theory
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Solved
+<<<<<<< HEAD
+record: -1
+=======
+record: 6
+>>>>>>> 6e572c4318c91906a5d2b4445ba9b251897efd7d
+post_submission_on_open: true
